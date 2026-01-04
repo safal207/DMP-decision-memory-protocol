@@ -1,0 +1,14 @@
+{
+  "id": "decision-record-001",
+  "title": "Initialize DMP Codex and First Decision Record",
+  "status": "accepted",
+  "date": "2024-01-01",
+  "decision": "Establish DMP by publishing the Codex v0.1, a minimal decision record specification, and a first canonical record.",
+  "context": "DMP begins as a protocol for decision memory; implementation is intentionally out of scope to preserve clarity and responsibility.",
+  "rationale": "Starting with meaning and non-editable memory ensures decisions remain causally accountable over time.",
+  "consequences": "The project is oriented around memory before tooling, enabling future systems to build on stable principles.",
+  "alternatives": [
+    "Begin with implementation details and define the protocol later",
+    "Wait for a complete tiering system before recording decisions"
+  ]
+}
