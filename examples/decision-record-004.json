@@ -1,0 +1,25 @@
+{
+  "id": "decision-record-004",
+  "title": "Record Post-Hoc Irreversibility When Outcomes Break Expectations",
+  "status": "accepted",
+  "date": "2024-01-04",
+  "decision": "Add outcome semantics and post-hoc irreversibility flags to Decision Records to capture when reality breaks expected reversibility.",
+  "context": "Reversibility is an expectation at decision time. In practice, decisions can become irreversible due to downstream effects (trust, contracts, regulations, public commitments).",
+  "rationale": "Without post-hoc capture, organizations repeat the same category error: treating costly-to-undo outcomes as if they were reversible.",
+  "consequences": "DMP can preserve classification drift and real-world constraints, improving future decision quality without rewriting history.",
+  "tier": "tier-1",
+  "reversibility": "partially-reversible",
+  "outcome_status": "partial",
+  "outcome_notes": "The decision appeared reversible, but downstream dependencies and public commitments made rollback infeasible without major loss of trust.",
+  "observed_reversibility": "irreversible",
+  "irreversibility_flags": [
+    "downstream_dependency_growth",
+    "public_commitment",
+    "trust_loss"
+  ],
+  "alternatives": [
+    "Treat reversibility as a one-time classification with no outcome tracking",
+    "Require supersession for every outcome update"
+  ],
+  "supersedes": "decision-record-003"
+}
