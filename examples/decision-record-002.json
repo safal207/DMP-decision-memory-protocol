@@ -1,0 +1,15 @@
+{
+  "id": "decision-record-002",
+  "title": "Define Supersession Semantics for Decision Records",
+  "status": "accepted",
+  "date": "2024-01-02",
+  "decision": "Introduce explicit supersession semantics to replace accepted decision records without rewriting history.",
+  "context": "As DMP evolves, decisions will change. A formal mechanism is required to preserve causal memory while allowing evolution.",
+  "rationale": "Supersession ensures decisions evolve through traceable records rather than silent modification.",
+  "consequences": "Decision history remains immutable while the system maintains a clear notion of the current decision.",
+  "alternatives": [
+    "Allow editing of accepted records",
+    "Use informal references without explicit supersession fields"
+  ],
+  "supersedes": "decision-record-001"
+}

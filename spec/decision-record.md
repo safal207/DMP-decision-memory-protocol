@@ -20,3 +20,9 @@ A Decision Record captures the minimum memory required to explain a decision and
 
 ## Immutability
 Once `status` is `accepted`, the record is immutable. Any change requires a new record that supersedes the prior one.
+
+## Supersession
+
+Decision Records are superseded, not edited.
+
+Supersession rules are defined in `spec/supersession.md`.
