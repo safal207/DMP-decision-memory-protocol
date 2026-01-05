@@ -17,6 +17,8 @@ A Decision Record captures the minimum memory required to explain a decision and
 - **supersedes**: ID of the record this one replaces.
 - **superseded_by**: ID of the record that replaces this one.
 - **references**: Links to supporting material.
+- **tier**: `tier-0 | tier-1 | tier-2`
+- **reversibility**: `reversible | partially-reversible | irreversible`
 
 ## Immutability
 Once `status` is `accepted`, the record is immutable. Any change requires a new record that supersedes the prior one.
