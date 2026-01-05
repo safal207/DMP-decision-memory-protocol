@@ -52,3 +52,5 @@ This interface makes boundary crossings explicit and non-deniable.
 
 The absence of `scp_review_required` does not imply safety.
 Its presence implies heightened responsibility.
+
+SCP core constraints are defined in `spec/scp-core-constraints.md`.
