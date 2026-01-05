@@ -19,6 +19,10 @@ A Decision Record captures the minimum memory required to explain a decision and
 - **references**: Links to supporting material.
 - **tier**: `tier-0 | tier-1 | tier-2`
 - **reversibility**: `reversible | partially-reversible | irreversible`
+- **outcome_status**: `unknown | success | partial | failure`
+- **outcome_notes**: Short summary of observed outcome
+- **observed_reversibility**: `reversible | partially-reversible | irreversible`
+- **irreversibility_flags**: Array of concrete reasons (e.g., `trust_loss`)
 
 ## Immutability
 Once `status` is `accepted`, the record is immutable. Any change requires a new record that supersedes the prior one.
@@ -28,3 +32,7 @@ Once `status` is `accepted`, the record is immutable. Any change requires a new 
 Decision Records are superseded, not edited.
 
 Supersession rules are defined in `spec/supersession.md`.
+
+## Outcome
+
+Outcome semantics are defined in `spec/outcome.md`.
