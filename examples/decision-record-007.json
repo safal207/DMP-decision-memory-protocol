@@ -1,0 +1,15 @@
+{
+  "id": "decision-record-007",
+  "title": "Define Red Flag Patterns for SCP Boundary Violations",
+  "status": "accepted",
+  "date": "2024-01-07",
+  "decision": "Publish a red-flag taxonomy that identifies common drift patterns leading to SCP constraint violations.",
+  "context": "Many boundary violations occur through gradual drift and plausible deniability rather than explicit intent.",
+  "rationale": "Naming violation patterns makes boundary crossings visible and harder to deny.",
+  "consequences": "Teams gain a shared language to recognize and prevent constraint erosion.",
+  "tier": "tier-2",
+  "reversibility": "irreversible",
+  "scp_review_required": true,
+  "scp_risk_notes": "Constraint boundaries require operational red flags to remain visible over time.",
+  "supersedes": "decision-record-006"
+}
