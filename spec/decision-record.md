@@ -23,6 +23,8 @@ A Decision Record captures the minimum memory required to explain a decision and
 - **outcome_notes**: Short summary of observed outcome
 - **observed_reversibility**: `reversible | partially-reversible | irreversible`
 - **irreversibility_flags**: Array of concrete reasons (e.g., `trust_loss`)
+- **scp_review_required**: `true | false` (default absent)
+- **scp_risk_notes**: Short explanation of SCP relevance
 
 ## Immutability
 Once `status` is `accepted`, the record is immutable. Any change requires a new record that supersedes the prior one.
@@ -36,3 +38,7 @@ Supersession rules are defined in `spec/supersession.md`.
 ## Outcome
 
 Outcome semantics are defined in `spec/outcome.md`.
+
+## SCP Interface
+
+DMP ↔ SCP interaction semantics are defined in `spec/dmp-scp-interface.md`.
