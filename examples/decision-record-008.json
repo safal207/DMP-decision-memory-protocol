@@ -1,0 +1,25 @@
+{
+  "id": "decision-record-008",
+  "title": "Treat Boundary Violations as First-Class Decision Records",
+  "status": "accepted",
+  "date": "2024-01-08",
+  "decision": "Classify detected SCP boundary violations and red-flag patterns as recordable decision events within DMP.",
+  "context": "Boundary violations often emerge through drift rather than explicit intent. When violations are observed but not recorded, organizations lose the opportunity to learn and deny responsibility through omission.",
+  "rationale": "If crossing a boundary changes the ethical or causal state of a system, that crossing is itself a decision worth remembering.",
+  "consequences": "Systems gain durable memory of ethical drift events without requiring enforcement or retroactive justification.",
+  "tier": "tier-2",
+  "reversibility": "irreversible",
+  "scp_review_required": true,
+  "scp_risk_notes": "Boundary violations signal a transition into heightened responsibility and must not remain implicit.",
+  "related_red_flags": [
+    "RF1",
+    "RF3",
+    "RF6",
+    "RF7"
+  ],
+  "alternatives": [
+    "Treat boundary violations as operational incidents only",
+    "Handle violations informally without durable records"
+  ],
+  "supersedes": "decision-record-007"
+}
