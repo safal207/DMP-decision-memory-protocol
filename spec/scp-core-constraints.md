@@ -77,3 +77,5 @@ They do not prescribe how systems should act,
 only where they must stop.
 
 Violation of a constraint is itself a recordable event.
+
+Common violation patterns are documented in `spec/boundary-violations.md`.
