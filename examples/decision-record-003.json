@@ -1,7 +1,7 @@
 {
   "id": "decision-record-003",
   "title": "Classify Decisions by Impact and Reversibility",
-  "status": "accepted",
+  "status": "superseded",
   "date": "2024-01-03",
   "decision": "Introduce decision tiers and reversibility semantics to distinguish ordinary decisions from costly and irreversible ones.",
   "context": "Without explicit tiering, DMP risks either overuse or underuse, reducing its effectiveness.",
@@ -13,5 +13,6 @@
     "Require DMP for all decisions",
     "Leave decision importance undefined"
   ],
-  "supersedes": "decision-record-002"
+  "supersedes": "decision-record-002",
+  "superseded_by": "decision-record-004"
 }

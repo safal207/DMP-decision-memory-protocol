@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/safal207/DMP-decision-memory-protocol/schemas/decision-record.schema.json",
+  "title": "DMP Decision Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "status",
+    "date",
+    "decision",
+    "context",
+    "rationale",
+    "consequences"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "accepted", "superseded"]
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "decision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "consequences": {
+      "type": "string",
+      "minLength": 1
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "supersedes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "superseded_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["tier-0", "tier-1", "tier-2"]
+    },
+    "reversibility": {
+      "type": "string",
+      "enum": ["reversible", "partially-reversible", "irreversible"]
+    },
+    "outcome_status": {
+      "type": "string",
+      "enum": ["unknown", "success", "partial", "failure"]
+    },
+    "outcome_notes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_reversibility": {
+      "type": "string",
+      "enum": ["reversible", "partially-reversible", "irreversible"]
+    },
+    "irreversibility_flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "scp_review_required": {
+      "type": "boolean"
+    },
+    "scp_risk_notes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "related_red_flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^RF\\d+$"
+      }
+    }
+  }
+}

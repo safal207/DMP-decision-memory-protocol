@@ -1,7 +1,7 @@
 {
   "id": "decision-record-006",
   "title": "Declare SCP Core Constraints as Non-Bypassable Boundaries",
-  "status": "accepted",
+  "status": "superseded",
   "date": "2024-01-06",
   "decision": "Define SCP core constraints to establish absolute boundaries protecting human self-creation.",
   "context": "As systems gain memory and optimization power, explicit limits are required to prevent silent erosion of agency and identity.",
@@ -11,5 +11,6 @@
   "reversibility": "irreversible",
   "scp_review_required": true,
   "scp_risk_notes": "Core constraints define absolute stopping points for system behavior.",
-  "supersedes": "decision-record-005"
+  "supersedes": "decision-record-005",
+  "superseded_by": "decision-record-007"
 }

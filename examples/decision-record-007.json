@@ -1,7 +1,7 @@
 {
   "id": "decision-record-007",
   "title": "Define Red Flag Patterns for SCP Boundary Violations",
-  "status": "accepted",
+  "status": "superseded",
   "date": "2024-01-07",
   "decision": "Publish a red-flag taxonomy that identifies common drift patterns leading to SCP constraint violations.",
   "context": "Many boundary violations occur through gradual drift and plausible deniability rather than explicit intent.",
@@ -11,5 +11,6 @@
   "reversibility": "irreversible",
   "scp_review_required": true,
   "scp_risk_notes": "Constraint boundaries require operational red flags to remain visible over time.",
-  "supersedes": "decision-record-006"
+  "supersedes": "decision-record-006",
+  "superseded_by": "decision-record-008"
 }

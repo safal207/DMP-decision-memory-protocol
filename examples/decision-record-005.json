@@ -1,7 +1,7 @@
 {
   "id": "decision-record-005",
   "title": "Signal SCP Boundary After Post-Hoc Irreversibility",
-  "status": "accepted",
+  "status": "superseded",
   "date": "2024-01-05",
   "decision": "Introduce an explicit DMP to SCP interface to signal when decisions cross into non-bypassable ethical or identity-related risk.",
   "context": "Some decisions become irreversible in practice and begin affecting trust, autonomy, or identity. Continuing without constraints becomes unsafe.",
@@ -16,5 +16,6 @@
   ],
   "scp_review_required": true,
   "scp_risk_notes": "Observed irreversibility combined with autonomy impact requires SCP constraint awareness before further action.",
-  "supersedes": "decision-record-004"
+  "supersedes": "decision-record-004",
+  "superseded_by": "decision-record-006"
 }

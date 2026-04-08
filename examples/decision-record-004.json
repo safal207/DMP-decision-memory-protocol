@@ -1,7 +1,7 @@
 {
   "id": "decision-record-004",
   "title": "Record Post-Hoc Irreversibility When Outcomes Break Expectations",
-  "status": "accepted",
+  "status": "superseded",
   "date": "2024-01-04",
   "decision": "Add outcome semantics and post-hoc irreversibility flags to Decision Records to capture when reality breaks expected reversibility.",
   "context": "Reversibility is an expectation at decision time. In practice, decisions can become irreversible due to downstream effects (trust, contracts, regulations, public commitments).",
@@ -17,9 +17,12 @@
     "public_commitment",
     "trust_loss"
   ],
+  "scp_review_required": true,
+  "scp_risk_notes": "Observed irreversibility and trust-loss signals require explicit SCP-aware review.",
   "alternatives": [
     "Treat reversibility as a one-time classification with no outcome tracking",
     "Require supersession for every outcome update"
   ],
-  "supersedes": "decision-record-003"
+  "supersedes": "decision-record-003",
+  "superseded_by": "decision-record-005"
 }
