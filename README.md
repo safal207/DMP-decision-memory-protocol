@@ -1,6 +1,6 @@
 # DMP (Decision Memory Protocol)
 
-DMP (Decision Memory Protocol) is a **governance-memory protocol** for decisions whose consequences may later become **irreversible, boundary-relevant, or non-deniable**.
+DMP (Decision Memory Protocol) is a **governance-memory protocol** for decisions whose consequences may later become **irreversible, boundary-relevant, or harder to deny**.
 
 It preserves not only what was decided, but also the decision context, the original reversibility assumptions, the observed outcomes over time, and whether later reality made the decision materially irreversible.
 
