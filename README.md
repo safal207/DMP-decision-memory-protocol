@@ -159,4 +159,4 @@ A useful question is:
 
 > How do we preserve durable, non-rewritable governance memory of decisions whose consequences may later become irreversible, autonomy-relevant, or boundary-crossing?
 
-That makes DMP a strong supporting artifact for safety work concerned with consequence memory, post-hoc accountability, boundary-relevant review, and non-deniable decision lineage.
+That makes DMP a strong supporting artifact for safety work concerned with consequence memory, post-hoc accountability, boundary-relevant review, and harder-to-deny decision lineage.
