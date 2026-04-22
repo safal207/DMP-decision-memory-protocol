@@ -4,7 +4,7 @@
 
 This document explains the safety-relevant failure classes that DMP is intended to make visible.
 
-DMP is not a runtime enforcement system. It is a memory protocol for decisions, consequences, and boundary crossings that organizations would otherwise be tempted to forget, soften, or rewrite.
+DMP is not a runtime enforcement system. It is a governance-memory protocol for preserving consequence-bearing decision history that organizations might otherwise forget, soften, or rewrite after outcomes become costly or irreversible.
 
 ## Why This Matters
 
@@ -17,7 +17,7 @@ Many serious failures are not caused only by one bad action. They are caused by 
 - whether reality later changed that reversibility
 - whether a human or ethical boundary had already been reached
 
-Without that memory, organizations can deny learning signals and repeat the same category errors.
+Without that durable governance memory, organizations can deny learning signals and repeat the same category errors.
 
 ## Failure Classes DMP Helps Address
 
@@ -77,7 +77,7 @@ DMP response:
 
 ### 5. Boundary Violations Treated as Non-Memory
 
-A violation or red-flag event is treated as an incident or anecdote, but not recorded as part of durable decision memory.
+A violation or red-flag event is treated as an incident or anecdote, but not recorded as part of durable governance memory.
 
 Why it matters:
 - the organization learns socially, not structurally
@@ -97,12 +97,12 @@ DMP does not by itself solve:
 - transport or storage security
 - semantic truth of every claim in a record
 
-It is a memory and accountability layer, not the entire safety stack.
+It is a governance-memory and accountability layer, not the entire safety stack.
 
 ## Bottom Line
 
 DMP matters when the safety question is:
 
-> Can this organization preserve a durable, non-rewritable memory of what it decided, why it decided it, and when the consequences or boundaries changed?
+> Can this organization preserve durable, non-rewritable governance memory of what it decided, why it decided it, and when outcomes or boundary conditions made that decision effectively irreversible?
 
 That is the failure class DMP is built to make visible.

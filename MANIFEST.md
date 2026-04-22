@@ -3,20 +3,18 @@
 We do not build intelligence first.
 
 We build:
-- memory of decisions,
-- memory of consequences,
-- memory of boundaries,
-- and memory of when boundaries were crossed.
+- governance memory of decisions,
+- consequence memory of outcomes,
+- boundary memory of review signals,
+- and durable records of when boundaries were crossed.
 
 We treat responsibility as infrastructure,
 not as policy or enforcement.
 
 No system gains agency
-without memory.
-No memory is allowed
+without governance memory.
+No governance memory is allowed
 without limits.
 
 We do not simulate consciousness.
-We make denial impossible.
-
-Agency comes last.
+We make denial difficult.
