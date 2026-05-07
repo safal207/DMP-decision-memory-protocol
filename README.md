@@ -10,6 +10,16 @@ When that memory is missing, responsibility becomes deniable, boundary crossings
 
 DMP exists to make that harder.
 
+## Review links
+
+- Grant evidence: [docs/GRANT_EVIDENCE.md](docs/GRANT_EVIDENCE.md)
+- Core spec: [spec/decision-record.md](spec/decision-record.md)
+- Supersession: [spec/supersession.md](spec/supersession.md)
+- Outcome semantics: [spec/outcome.md](spec/outcome.md)
+- JSON Schema: [schemas/decision-record.schema.json](schemas/decision-record.schema.json)
+- Threat model: [docs/safety/decision_accountability_threat_model.md](docs/safety/decision_accountability_threat_model.md)
+- Validation snapshot: [VALIDATION_RESULTS.md](VALIDATION_RESULTS.md)
+
 ## Problem
 
 Many systems and teams can explain what happened only after the fact. They cannot reliably show:
