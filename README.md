@@ -12,6 +12,7 @@ DMP exists to make that harder.
 
 ## Review links
 
+- Portfolio relationship: [docs/PORTFOLIO_RELATIONSHIP.md](docs/PORTFOLIO_RELATIONSHIP.md)
 - Grant evidence: [docs/GRANT_EVIDENCE.md](docs/GRANT_EVIDENCE.md)
 - Core spec: [spec/decision-record.md](spec/decision-record.md)
 - Supersession: [spec/supersession.md](spec/supersession.md)
