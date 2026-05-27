@@ -98,7 +98,22 @@ README now links directly to:
 - portfolio relationship;
 - core spec;
 - validation snapshot;
-- threat model.
+- threat model;
+- security policy;
+- contributing guide;
+- license.
+
+### Trust files
+
+Added and linked:
+
+```text
+LICENSE
+SECURITY.md
+CONTRIBUTING.md
+```
+
+These make the repository clearer as an open-source reviewer artifact.
 
 ## Current evidence anchors
 
@@ -117,6 +132,9 @@ README now links directly to:
 | Examples | `examples/` |
 | Validation script | `scripts/validate_examples.py` |
 | Tests | `tests/` |
+| Security policy | `SECURITY.md` |
+| Contributing guide | `CONTRIBUTING.md` |
+| License | `LICENSE` |
 
 ## Validation command
 
@@ -189,7 +207,6 @@ Before a formal reviewer-ready tag, complete:
 - clean-checkout validation;
 - confirm validation scripts/tests pass;
 - confirm regenerated validation snapshot is unchanged or intentionally updated;
-- confirm LICENSE / SECURITY / CONTRIBUTING exist and are linked or explicitly noted;
 - update this snapshot with clean-checkout results;
 - add a reviewer-ready tag after validation.
 
@@ -198,7 +215,7 @@ Before a formal reviewer-ready tag, complete:
 DMP is now substantially clearer for external review:
 
 ```text
-clear governance-memory framing + reviewer path + non-claims + portfolio relationship + validation path
+clear governance-memory framing + reviewer path + non-claims + portfolio relationship + validation path + trust files
 ```
 
 It is ready for the next step: clean-checkout validation and optional reviewer-ready tag.
