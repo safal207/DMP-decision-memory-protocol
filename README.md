@@ -23,6 +23,12 @@ DMP exists to make that harder.
 - Threat model: [docs/safety/decision_accountability_threat_model.md](docs/safety/decision_accountability_threat_model.md)
 - Validation snapshot: [VALIDATION_RESULTS.md](VALIDATION_RESULTS.md)
 
+## Project trust and governance
+
+- Security policy: [SECURITY.md](SECURITY.md)
+- Contributing guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+- License: [LICENSE](LICENSE)
+
 ## Problem
 
 Many systems and teams can explain what happened only after the fact. They cannot reliably show:
