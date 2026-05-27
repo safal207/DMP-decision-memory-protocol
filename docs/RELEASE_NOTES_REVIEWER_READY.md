@@ -200,15 +200,18 @@ What was decided, why, and did later reality make the decision irreversible?
 
 Together, they support a staged evidence architecture for trustworthy agentic systems and high-impact governance review.
 
-## Remaining recommended hardening
+## Clean-checkout validation
 
-Before a formal reviewer-ready tag, complete:
+Completed on 2026-05-27:
 
-- clean-checkout validation;
-- confirm validation scripts/tests pass;
-- confirm regenerated validation snapshot is unchanged or intentionally updated;
-- update this snapshot with clean-checkout results;
-- add a reviewer-ready tag after validation.
+```text
+python scripts/validate_examples.py    — all PASS
+python -m unittest discover -s tests   — OK (3 tests)
+python scripts/generate_validation_results.py — regenerated
+git status                             — clean
+```
+
+Validation passed cleanly. Ready for reviewer-ready tag.
 
 ## Bottom line
 
