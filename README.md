@@ -12,6 +12,8 @@ DMP exists to make that harder.
 
 ## Review links
 
+- Reviewer path: [docs/REVIEWER_PATH.md](docs/REVIEWER_PATH.md)
+- Non-claims: [docs/NON_CLAIMS.md](docs/NON_CLAIMS.md)
 - Portfolio relationship: [docs/PORTFOLIO_RELATIONSHIP.md](docs/PORTFOLIO_RELATIONSHIP.md)
 - Grant evidence: [docs/GRANT_EVIDENCE.md](docs/GRANT_EVIDENCE.md)
 - Core spec: [spec/decision-record.md](spec/decision-record.md)
@@ -152,6 +154,18 @@ Regenerate the tracked validation snapshot:
 ```bash
 python scripts/generate_validation_results.py
 ```
+
+## Scope
+
+DMP does not claim to solve all AI safety, governance, legal, or compliance problems.
+
+It contributes one focused primitive:
+
+```text
+consequence-bearing decision memory under reversibility and irreversibility risk
+```
+
+See [docs/NON_CLAIMS.md](docs/NON_CLAIMS.md) for the full scope boundary.
 
 ## Repository Map
 
